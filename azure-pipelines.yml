@@ -1,4 +1,3 @@
-# Docker
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
@@ -10,6 +9,7 @@
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
+# Docker
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
